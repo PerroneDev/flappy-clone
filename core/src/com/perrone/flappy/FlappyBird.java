@@ -104,6 +104,7 @@ public class FlappyBird extends ApplicationAdapter {
 	@Override
 	public void render () {
 
+
 		camera.update();
 
 		//limpar frames anteriores
@@ -151,6 +152,7 @@ public class FlappyBird extends ApplicationAdapter {
 					estadoJogo = 0;
 					pontuacao = 0;
 					velocidadeQueda = 0;
+					acelerar = 200;
 					posicaoInicialVertical = alturaDispositivo/2;
 					posicaoMovimentoCanoHorizontal = larguraDispositivo;
 				}
